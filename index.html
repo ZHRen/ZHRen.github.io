@@ -56,11 +56,6 @@
 							<div class="ribbon"></div>
 						</div>
 						
-						<div class="icon-wrap icon-link hide" data-idx="2">
-							<div class="loopback_l"></div>
-							<div class="loopback_r"></div>
-						</div>
-						
 						
 						<div class="icon-wrap icon-me hide" data-idx="3">
 							<div class="user"></div>
@@ -75,8 +70,6 @@
 					<ul class="tips-inner">
 						<li>Menu</li>
 						<li>Tags</li>
-						
-						<li>Links</li>
 						
 						
 						<li>About</li>
@@ -103,13 +96,11 @@
 					<nav class="header-nav">
 						<div class="social">
 							
-								<a class="github" target="_blank" href="#" title="github">github</a>
+								<a class="github" target="_blank" href="https://github.com/ZHRen" title="github">github</a>
 					        
-								<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+								<a class="weibo" target="_blank" href="http://weibo.com/1896929103/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="weibo">weibo</a>
 					        
-								<a class="rss" target="_blank" href="#" title="rss">rss</a>
-					        
-								<a class="mail" target="_blank" href="/601272873@qq.com" title="mail">mail</a>
+								<a class="mail" target="_blank" href="mailto:601272873@qq.com" title="mail">mail</a>
 					        
 						</div>
 					</nav>
@@ -124,28 +115,10 @@
 				
 				
 				
-				<section class="switch-part switch-part3">
-					<div id="js-friends">
-					
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">奥巴马的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">卡卡的美丽传说</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">本泽马的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">吉格斯的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">习大大大不同</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">托蒂的博客</a>
-			        
-			        </div>
-				</section>
-				
 
 				
 				
-				<section class="switch-part switch-part4">
+				<section class="switch-part switch-part3">
 				
 					<div id="js-aboutme">华南理工大学，2013级信息工程2班</div>
 				</section>
@@ -190,13 +163,11 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github">github</a>
+						<a class="github" target="_blank" href="https://github.com/ZHRen" title="github">github</a>
 			        
-						<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+						<a class="weibo" target="_blank" href="http://weibo.com/1896929103/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="weibo">weibo</a>
 			        
-						<a class="rss" target="_blank" href="#" title="rss">rss</a>
-			        
-						<a class="mail" target="_blank" href="/601272873@qq.com" title="mail">mail</a>
+						<a class="mail" target="_blank" href="mailto:601272873@qq.com" title="mail">mail</a>
 			        
 				</div>
 			</nav>
@@ -232,30 +203,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>在自学Android应用开发的时候，受启发于某位大大，自己也开始学习搭建个人blog，以此来记录自学过程中的经验以及教训吧。<br>但是为什么不用现成的可视化编辑博客平台呢？因为很多博客平台上面点进去广告太多，阅读体验太差。作为一个有编程经验的人，自己搭建一个博客不是一件难事。<br>回到正题，因为Github上面有很多已经设计好的博客模板，还可以免为托管，所以使用起来非常方便。下面来说说如何搭建自己的个人Blog。</p>
-<h3 id="Windows环境下Hexo的搭建"><a href="#Windows环境下Hexo的搭建" class="headerlink" title="Windows环境下Hexo的搭建"></a>Windows环境下Hexo的搭建</h3><hr>
-<h4 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1. 安装Git"></a>1. 安装Git</h4><p>到<a href="http://git-scm.com/" target="_blank" rel="external">Git官网</a>下载即可。<br>博主使用的当前版本是v2.7.2<br>【<strong>PS:</strong> 安装进行到”Select Components”这一步时记得确认将“Git Bash here”和“Git GUI here”这两个选项打勾。以方便后面的操作。】</p>
-<h4 id="2-安装Node-js"><a href="#2-安装Node-js" class="headerlink" title="2. 安装Node.js"></a>2. 安装Node.js</h4><p>同样，到<a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js官网</a>下载最新版本。<br>博主使用的当前版本是v5.8.0<br>【<strong>PS:</strong> 最好安装在默认路径。】</p>
-<h4 id="3-安装Hexo"><a href="#3-安装Hexo" class="headerlink" title="3. 安装Hexo"></a>3. 安装Hexo</h4><p>前面的Git和Node安装好后，在屏幕的任意一处点击右键，在菜单中选择”Git Bash”。<br>【<strong>PS:</strong>在v2.7.2版本的Git中复制操作是”Ctrl+ins”,粘贴操作是”Shift+ins”，而”Ctrl+C”会终止当前操作】</p>
-<p>输入以下命令：<br><code>npm install -g hexo</code></p>
-<p>应该会有人在执行这一步之后程序就会出现ERR ERR ERR…博主当时也卡在这里，找了无数种方法，最后才发现原来是下载hexo的网址被墙了，程序无法下载。这时候就要给npm下载地址换源了。下面介绍两种方法：</p>
-<ol>
-<li>分步输入以下两个命令：<br><code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code><br><code>cnpm install hexo-cli -g</code></li>
-<li>编辑”C:\Users\你的用户名”目录下的”.npmrc”文件<br>加入如下内容<br><code>registry = http://registry.cnpmjs.org</code><br>再在Git Bash中输入命令<code>npm install -g hexo</code>即可</li>
-</ol>
-<p><strong>PS:</strong> 推荐使用第二种方法，因为后面的操作中也会出现下载时被墙的问题。</p>
-<h4 id="4-创建Hexo目录"><a href="#4-创建Hexo目录" class="headerlink" title="4. 创建Hexo目录"></a>4. 创建Hexo目录</h4><p>可在任意地方新建一个文件夹，此文件夹就是你的个人Blog包括主要信息、文章、主题等文件所存放的地方，建议用全英路径一面出现不必要的ERR。例如：”C:\HEXO”。<br>建好文件夹后，在文件夹内点击右键，然后点击”Git Bash Here”。</p>
-<ul>
-<li>输入命令 <code>hexo init</code><br>完成文件夹内会自动生成搭建一个hexo博客所需要的文件。如果执行完后命令框显示如下，那就证明已经成功生成一个hexo目录。<br><img src="http://upload-images.jianshu.io/upload_images/1743704-d20acad99958ba77.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="成功执行&quot;hexo init&quot;指令后"></li>
-<li>输入命令 <code>npm install</code><br>npm会自动安装依赖环境。<br>【<strong>PS:</strong> 若上一步命令”hexo init”执行成功，可跳过此步】</li>
-</ul>
-<h4 id="5-本地运行个人Blog"><a href="#5-本地运行个人Blog" class="headerlink" title="5. 本地运行个人Blog"></a>5. 本地运行个人Blog</h4><p>以上操作全部成功后，即可在本地试运行个人Blog。</p>
-<ul>
-<li>输入命令 <code>hexo s</code></li>
-</ul>
-<p><img src="http://upload-images.jianshu.io/upload_images/1743704-f021c3c86397054e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="执行&quot;hexo s&quot;后"><br>在浏览器中输入网址” <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a>“ 即可浏览到刚刚生成的blog。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1743704-3a9248ee60b69032.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="个人Blog本地预览"></p>
-
+        <p>在自学Android应用开发的时候，受启发于某位大大，自己也开始学习搭建个人blog，以此来记录自学过程中的经验以及教训吧。</p>
+<p>但是为什么不用现成的可视化编辑博客平台呢？因为很多博客平台上面点进去广告太多，阅读体验太差。作为一个有编程经验的人，自己搭建一个博客不是一件难事。</p>
+<p>回到正题，因为Github上面有很多已经设计好的博客模板，还可以免为托管，所以使用起来非常方便。下面来说说如何搭建自己的个人Blog。</p>
       
     </div>
     
@@ -269,66 +219,9 @@
       
 
       
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/03/13/hello-world/" class="article-date">
-  	<time datetime="2016-03-13T15:27:59.917Z" itemprop="datePublished">2016-03-13</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/13/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
+        <p class="article-more-link">
+          <a  href="/2016/03/14/搭建独立博客——基于hexo-Github/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
